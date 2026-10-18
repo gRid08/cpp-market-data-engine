@@ -1,0 +1,91 @@
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+
+# =========================
+# CMake build directories
+# =========================
+cmake-build-*/
+build/
+build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# CMake generated files
+*.cmake.user
+CMakeUserPresets.json
+
+# =========================
+# Compiled binaries & objects
+# =========================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# =========================
+# Debug symbols & profiling
+# =========================
+*.pdb
+*.ilk
+*.idb
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+
+# =========================
+# C/C++ tooling
+# =========================
+.cache/
+.clangd/
+.clang-format.bak
+.clang-tidy-cache/
+
+# =========================
+# Package managers
+# =========================
+/vcpkg_installed/
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+graph_info.json
+
+# =========================
+# Operating systems
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs & temporary files
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+!.env.example
